@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Lato', system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-gradient-to-br from-slate-50 to-slate-100;
+  }
+}
+
+.gradient-primary {
+  @apply bg-gradient-to-r from-blue-600 to-indigo-600;
+}
+
+.gradient-secondary {
+  @apply bg-gradient-to-r from-slate-700 to-slate-800;
+}
+
+.gradient-card {
+  @apply bg-gradient-to-br from-white to-slate-50;
+}
+
+.gradient-sidebar {
+  @apply bg-gradient-to-b from-slate-800 to-slate-900;
+}
+
+.gradient-header {
+  @apply bg-gradient-to-r from-white to-slate-50;
+}
