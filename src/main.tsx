@@ -5,6 +5,7 @@ import App from './App.tsx';
 import LossesPage from './pages/LossesPage.tsx';
 import CasesPage from './pages/CasesPage.tsx';
 import RefundPage from './pages/RefundPage.tsx';
+import DataComparePage from './pages/DataComparePage.tsx';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/mekanisme-pengembalian',
     element: <RefundPage />,
+  },
+  {
+    path: '/data-compare',
+    element: <DataComparePage />,
   },
 ]);
 

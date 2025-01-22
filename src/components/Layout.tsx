@@ -18,6 +18,7 @@ export default function Layout({ children }: LayoutProps) {
     { name: 'Mekanisme Pengembalian', icon: DollarSign, to: '/mekanisme-pengembalian' },
     { name: 'Pelaporan', icon: FileText, to: '/reports' },
     { name: 'Manajemen Pengguna', icon: Users, to: '/users' },
+    { name: 'Data Compare', icon: Users, to: '/data-compare' },
   ];
 
   return (
