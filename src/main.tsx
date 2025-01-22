@@ -6,6 +6,7 @@ import LossesPage from './pages/LossesPage.tsx';
 import CasesPage from './pages/CasesPage.tsx';
 import RefundPage from './pages/RefundPage.tsx';
 import DataComparePage from './pages/DataComparePage.tsx';
+import LogDataComparePage from './pages/LogDataComparePage.tsx';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: '/data-compare',
     element: <DataComparePage />,
+  },
+  {
+    path: '/log-data-compare',
+    element: <LogDataComparePage />,
   },
 ]);
 
